@@ -69,7 +69,7 @@ function getReport() {
     return $report_obj->getReport($freshReportId);
 }
 
-function generateMap(array $values): array {
+function generateMap(array $values) {
     return [
         'status' => "new",
         'snapshotDate' => date('Y-m-d', time()),
@@ -126,7 +126,7 @@ function generateMap(array $values): array {
  * @param array $values
  * @return int
  */
-function checkProduct(array $values): int {
+function checkProduct(array $values) {
     global $pdo;
 
     $stmt = $pdo->prepare('SELECT `id_sales_monitoring` FROM `sm_sales_monitoring` WHERE `sku` = "'. $values[1] .'" LIMIT 1');
