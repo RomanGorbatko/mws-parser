@@ -1,6 +1,8 @@
 <?php
 
 include_once __DIR__ . '/MarketplaceWebService/Samples/reporting.php';
+include_once __DIR__ . '/polyfill.php';
+
 $config = include_once __DIR__ . '/config.php';
 
 $pdo = new PDO('mysql:host=' . $config['pdo']['host'] . ';dbname=' . $config['pdo']['db'], $config['pdo']['user'], $config['pdo']['password']);
