@@ -3,7 +3,7 @@
 include_once __DIR__ . '/MarketplaceWebService/Samples/reporting.php';
 $config = include_once __DIR__ . '/config.php';
 
-$pdo = new PDO('mysql:host=' . $config['pdo']['host'] . ';dbname=' . $config['pdo']['db'], $config['pdo']['user'], $config['pdo']['passsword']);
+$pdo = new PDO('mysql:host=' . $config['pdo']['host'] . ';dbname=' . $config['pdo']['db'], $config['pdo']['user'], $config['pdo']['password']);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $acontents = getReport();
