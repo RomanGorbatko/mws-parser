@@ -72,7 +72,7 @@ function getReport() {
 function generateMap(array $values): array {
     return [
         'status' => "new",
-        'snapshotDate' => date('Y-m-d', strtotime(trim($values[0]))),
+        'snapshotDate' => date('Y-m-d', time()),
         'sku' => $values[1] ?: '',
         'fnsku' => $values[2] ?: '',
         'asin' => $values[3] ?: '',

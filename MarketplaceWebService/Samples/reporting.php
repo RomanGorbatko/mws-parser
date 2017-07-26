@@ -185,7 +185,7 @@ class Reporting	{
                         }
                         if ($reportInfo->isSetAvailableDate()) 
                         {
-							$report_info[$i]['available_date']	=	$reportInfo->getAvailableDate()->format(DATE_FORMAT);
+							$report_info[$i]['available_date']	=	$reportInfo->getAvailableDate()->timestamp;
                            /* echo("                    AvailableDate\n");
                             echo("                        " . $reportInfo->getAvailableDate()->format(DATE_FORMAT) . "\n");*/
                         }
