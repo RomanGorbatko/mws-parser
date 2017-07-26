@@ -1,0 +1,2 @@
+[14-Dec-2014 13:14:13 Europe/London] PHP Fatal error:  Class 'Reporting' not found in /home/dixeam/public_html/amazone/includes/lib/thirdparty/amazone/MarketplaceWebService/Samples/request-reporting-cron.php on line 13
+[14-Dec-2014 13:14:58 Europe/London] PHP Fatal error:  Class 'MarketplaceWebService_Client' not found in /home/dixeam/public_html/amazone/includes/lib/thirdparty/amazone/MarketplaceWebService/Samples/reporting.php on line 38

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ab9aa15-e6fe-4e21-9a97-8d90cde7f7d6" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="58" column="77" lean-forward="false" selection-start-line="58" selection-start-column="77" selection-end-line="58" selection-end-column="77" />
+              <folding>
+                <marker date="1501052380000" expanded="true" signature="378:2557" ph="INSERT INTO sm_sales_monitoring... " />
+                <marker date="1501052380000" expanded="true" signature="6069:6138" ph="SELECT `id_s... sm_sales_monitoring" />
+                <marker date="1501052380000" expanded="true" signature="6069:6140" ph="SELECT `id_s... sm_sales_monitoring" />
+                <marker date="1501052380000" expanded="true" signature="6069:6165" ph="SELECT name mytable" />
+                <marker date="1501052380000" expanded="true" signature="6069:6189" ph="SELECT `id_s... sm_sales_monitoring" />
+                <marker date="1501052380000" expanded="true" signature="6704:6736" ph="UPDATE `sm_s... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding>
+                <element signature="e#6#94#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reporting.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MarketplaceWebService/Samples/reporting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="114" column="52" lean-forward="false" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="52" />
+              <folding>
+                <marker date="1421677442000" expanded="true" signature="2620:2856" ph="INSERT INTO inventory_health... " />
+                <marker date="1421677442000" expanded="true" signature="4155:5156" ph="UPDATE produ... " />
+                <marker date="1421677442000" expanded="true" signature="5272:6271" ph="INSERT INTO products... " />
+                <marker date="1421677442000" expanded="true" signature="16941:17459" ph="INSERT INTO sale_orders... " />
+                <marker date="1421677442000" expanded="true" signature="17691:17901" ph="UPDATE sale_... " />
+                <marker date="1421677442000" expanded="true" signature="18349:18498" ph="UPDATE sale_... " />
+                <marker date="1421677442000" expanded="true" signature="18585:18732" ph="UPDATE sale_... " />
+                <marker date="1421677442000" expanded="true" signature="18812:18945" ph="UPDATE sale_... " />
+                <marker date="1421677442000" expanded="true" signature="19018:19137" ph="UPDATE sale_... " />
+                <marker date="1421677442000" expanded="true" signature="19218:19353" ph="UPDATE sale_... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".config.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MarketplaceWebService/Samples/.config.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sendInventoryFeed</find>
+      <find>_GET_FBA_FULFILLMENT_INVENTORY_HEALTH_DATA_</find>
+      <find>MarketplaceWebService_Model_TypeList</find>
+      <find>AmazonReport</find>
+      <find>GetReportRequest</find>
+      <find>GetReport</find>
+      <find>ATVPDKIKX0DER</find>
+      <find />
+      <find>UpdateInventory</find>
+      <find>getReport</find>
+      <find>getReport(</find>
+      <find>sm_sales_monitoring</find>
+      <find>$columns</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/phpAmazonMWS-stable/includes/classes</dir>
+      <dir>$PROJECT_DIR$/MarketplaceWebServiceProducts</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/phpAmazonMWS-stable/amazon-config.php" />
+        <option value="$PROJECT_DIR$/phpAmazonMWS-stable/log.txt" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/jp-68f9c368440cf8687ecc6fdf4aee1f8d1697a8ae/includes/lib/thirdparty/amazone/MarketplaceWebService/lib/reporting.php" />
+        <option value="$PROJECT_DIR$/MarketplaceWebService/Samples/.config.inc.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mws-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mws-parser" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ab9aa15-e6fe-4e21-9a97-8d90cde7f7d6" name="Default" comment="" />
+      <created>1500969736149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500969736149</updated>
+      <workItem from="1500969754307" duration="975000" />
+      <workItem from="1500970985336" duration="8667000" />
+      <workItem from="1500997354822" duration="8089000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17731000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="990" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44842562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501052380000" expanded="true" signature="378:2557" ph="INSERT INTO sm_sales_monitoring... " />
+            <marker date="1501052380000" expanded="true" signature="6069:6138" ph="SELECT `id_s... sm_sales_monitoring" />
+            <marker date="1501052380000" expanded="true" signature="6069:6140" ph="SELECT `id_s... sm_sales_monitoring" />
+            <marker date="1501052380000" expanded="true" signature="6069:6165" ph="SELECT name mytable" />
+            <marker date="1501052380000" expanded="true" signature="6069:6189" ph="SELECT `id_s... sm_sales_monitoring" />
+            <marker date="1501052380000" expanded="true" signature="6704:6736" ph="UPDATE `sm_s... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/examples/feed_examples.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/examples/inventory_examples.php" />
+    <entry file="file://$PROJECT_DIR$/MarketplaceWebServiceProducts/Samples/.config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/includes/classes/AmazonReportsCore.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/examples/order_examples.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/examples/inventory_examples.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/log.txt" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/examples/feed_examples.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/includes/classes/AmazonInventoryList.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/test-cases/helperFunctions.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/test-cases/includes/classes/AmazonReportRequestTest.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/test-cases/includes/classes/AmazonReportTest.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/includes/classes/AmazonReport.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/includes/classes/AmazonReportRequestList.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/includes/classes/AmazonReportRequest.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/sellerworks/amazon-mws/src/Common/AbstractClient.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/sellerworks/amazon-mws/src/Orders/Client.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/sellerworks/amazon-mws/src/Reports/ReportsTrait.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/sellerworks/amazon-mws/src/Reports/Request/GetReportListRequest.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/sellerworks/amazon-mws/src/Common/RequestInterface.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/sellerworks/amazon-mws/tests/Reports/ClientPlumbingTest.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/sellerworks/amazon-mws/src/Reports/Request/GetReportRequest.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/sellerworks/amazon-mws/src/Reports/Client.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/sellerworks/amazon-mws/src/Credentials/Credentials.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/caponica/amazon-mws-complete/src/AmazonPhpClientLibrary/MarketplaceWebServiceProducts/Interface.php" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/caponica/amazon-mws-complete/src/CaponicaAmazonMwsComplete/AmazonClient/MwsProductClient.php" />
+    <entry file="file://$PROJECT_DIR$/phpAmazonMWS-stable/amazon-config.php" />
+    <entry file="file://$PROJECT_DIR$/MarketplaceWebServiceProducts/Samples/GetLowestOfferListingsForSKUSample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="77" column="36" lean-forward="true" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/caponica/amazon-mws-complete/src/AmazonPhpClientLibrary/MarketplaceWebServiceProducts/Client.php" />
+    <entry file="file://$PROJECT_DIR$/MarketplaceWebServiceProducts/Samples/GetMatchingProductSample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jp-68f9c368440cf8687ecc6fdf4aee1f8d1697a8ae/includes/lib/thirdparty/amazone/MarketplaceWebService/Client.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/caponica/amazon-mws-complete/src/AmazonPhpClientLibrary/MarketplaceWebService/Client.php" />
+    <entry file="file://$PROJECT_DIR$/jp-68f9c368440cf8687ecc6fdf4aee1f8d1697a8ae/includes/lib/thirdparty/amazone/MarketplaceWebService/lib/reporting.php" />
+    <entry file="file://$PROJECT_DIR$/jp-68f9c368440cf8687ecc6fdf4aee1f8d1697a8ae/includes/lib/thirdparty/amazone/MarketplaceWebService/Samples/reporting.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="874" column="3" lean-forward="true" selection-start-line="874" selection-start-column="3" selection-end-line="874" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarketplaceWebService/Samples/reporting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="52" lean-forward="false" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="52" />
+          <folding>
+            <marker date="1421677442000" expanded="true" signature="2620:2856" ph="INSERT INTO inventory_health... " />
+            <marker date="1421677442000" expanded="true" signature="4155:5156" ph="UPDATE produ... " />
+            <marker date="1421677442000" expanded="true" signature="5272:6271" ph="INSERT INTO products... " />
+            <marker date="1421677442000" expanded="true" signature="16941:17459" ph="INSERT INTO sale_orders... " />
+            <marker date="1421677442000" expanded="true" signature="17691:17901" ph="UPDATE sale_... " />
+            <marker date="1421677442000" expanded="true" signature="18349:18498" ph="UPDATE sale_... " />
+            <marker date="1421677442000" expanded="true" signature="18585:18732" ph="UPDATE sale_... " />
+            <marker date="1421677442000" expanded="true" signature="18812:18945" ph="UPDATE sale_... " />
+            <marker date="1421677442000" expanded="true" signature="19018:19137" ph="UPDATE sale_... " />
+            <marker date="1421677442000" expanded="true" signature="19218:19353" ph="UPDATE sale_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarketplaceWebService/Samples/.config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="295" column="52" lean-forward="true" selection-start-line="295" selection-start-column="52" selection-end-line="295" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="58" column="77" lean-forward="false" selection-start-line="58" selection-start-column="77" selection-end-line="58" selection-end-column="77" />
+          <folding>
+            <marker date="1501052380000" expanded="true" signature="378:2557" ph="INSERT INTO sm_sales_monitoring... " />
+            <marker date="1501052380000" expanded="true" signature="6069:6138" ph="SELECT `id_s... sm_sales_monitoring" />
+            <marker date="1501052380000" expanded="true" signature="6069:6140" ph="SELECT `id_s... sm_sales_monitoring" />
+            <marker date="1501052380000" expanded="true" signature="6069:6165" ph="SELECT name mytable" />
+            <marker date="1501052380000" expanded="true" signature="6069:6189" ph="SELECT `id_s... sm_sales_monitoring" />
+            <marker date="1501052380000" expanded="true" signature="6704:6736" ph="UPDATE `sm_s... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
