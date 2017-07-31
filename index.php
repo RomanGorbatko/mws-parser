@@ -4,11 +4,10 @@ include_once __DIR__ . '/MarketplaceWebService/Samples/reporting.php';
 include_once __DIR__ . '/polyfill.php';
 
 $config = include_once __DIR__ . '/config.php';
+$currentConfig = null;
 
 $pdo = new PDO('mysql:host=' . $config['pdo']['host'] . ';dbname=' . $config['pdo']['db'], $config['pdo']['user'], $config['pdo']['password']);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-$acontents = getReport();
 
 $query = '
     INSERT INTO sm_sales_monitoring
@@ -32,49 +31,85 @@ $query = '
         );'
 ;
 
-foreach ($acontents as $key => $values) {
-    $values = explode("\t", $values);
 
-    if ($key == 0) {
-        continue;
-    }
+foreach ($config['mws'] as $config) {
+    $currentConfig = $config;
+    $acontents = getReport();
 
-    $map = generateMap($values);
+    foreach ($acontents as $key => $values) {
+        $values = explode("\t", $values);
 
-    if ($id = checkProduct($values)) {
-        $map['idSalesMonitoring'] = $id;
+        if ($key == 0) {
+            continue;
+        }
 
-        updateValues($map);
-    } else {
-        insertValues($map);
+        $map = generateMap($values);
+
+        if ($id = checkProduct($values)) {
+            $map['idSalesMonitoring'] = $id;
+
+            updateValues($map);
+        } else {
+            insertValues($map);
+        }
     }
 }
 
 /**
+ * @param int $attempt
+ * @param null $requestId
  * @return array
  */
-function getReport() {
-    global $config;
-    $amazone_array['AWS_API_KEY']			=	$config['mws']['API_KEY'];
-    $amazone_array['AWS_API_SECRET_KEY']	=	$config['mws']['SECRET_KEY'];
-    $amazone_array['MERCHANT_ID']			=	$config['mws']['MERCHANT_ID'];
-    $amazone_array['MAKETPLACE_ID']			=	$config['mws']['MAKETPLACE_ID'];
+function getReport($attempt = 0, $requestId = null) {
+    global $currentConfig;
+    $amazone_array['AWS_API_KEY']			=	$currentConfig['API_KEY'];
+    $amazone_array['AWS_API_SECRET_KEY']	=	$currentConfig['SECRET_KEY'];
+    $amazone_array['MERCHANT_ID']			=	$currentConfig['MERCHANT_ID'];
+    $amazone_array['MAKETPLACE_ID']			=	$currentConfig['MAKETPLACE_ID'];
+
+    $report_type = '_GET_FBA_FULFILLMENT_INVENTORY_HEALTH_DATA_';
 
     $report_obj = new Reporting($amazone_array);
 
-    $report_type = '_GET_FBA_FULFILLMENT_INVENTORY_HEALTH_DATA_';
-    $report_req	= $report_obj->invokeGetReportList($report_type);
-    unset($report_req['get_has_next']);
+    if ($requestId === null) {
+        $newReport = $report_obj->invokeRequestReport($report_type, 'now', '+3 months')['request_id'];
+        sleep(5);
+    } else {
+        $newReport = $requestId;
+    }
 
-    $freshReportId = max(array_column($report_req, 'report_id'));
+    try {
+        $response = $report_obj->getReportRequest($newReport, $report_type);
+    } catch (Exception $exception) {
+        echo 'Too many requests to MWS API, wait a minute.' . PHP_EOL; exit;
+    }
 
-    return $report_obj->getReport($freshReportId);
+
+    /** @var MarketplaceWebService_Model_GetReportRequestListResult $getReportRequestListResult */
+    $getReportRequestListResult = $response->getGetReportRequestListResult();
+
+    $status = $getReportRequestListResult->getReportRequestInfoList()[0]->getReportProcessingStatus();
+
+    if ($status === '_SUBMITTED_' || $status === '_IN_PROGRESS_') {
+        sleep(5);
+        $attempt++;
+        return getReport($attempt, $newReport);
+    } else if ($status === '_CANCELLED_') {
+        echo 'Status _CANCELLED_' . PHP_EOL; exit;
+    } else if ($status === '_DONE_') {
+        echo 'Status _DONE_' . PHP_EOL;
+        $report_req	= $report_obj->invokeGetReportList($report_type);
+        unset($report_req['get_has_next']);
+        $freshReportId = max(array_column($report_req, 'report_id'));
+
+        return $report_obj->getReport($freshReportId);
+    }
 }
 
 function generateMap(array $values) {
     return [
         'status' => "new",
-        'snapshotDate' => date('Y-m-d', time()),
+        'snapshotDate' => date('Y-m-d', strtotime(trim($values[0]))),
         'sku' => $values[1] ?: '',
         'fnsku' => $values[2] ?: '',
         'asin' => $values[3] ?: '',
@@ -96,13 +131,13 @@ function generateMap(array $values) {
         'unitsShippedLast90Days' => $values[19] ?: 0,
         'unitsShippedLast180Days' => $values[20] ?: 0,
         'unitsShippedLast365Days' => $values[21] ?: 0,
-        'weeksOfCoverT7' => $values[22] ?: 0,
-        'weeksOfCoverT30' => $values[23] ?: 0,
-        'weeksOfCoverT90' => $values[24] ?: 0,
-        'weeksOfCoverT180' => $values[25] ?: 0,
-        'weeksOfCoverT365' => $values[26] ?: 0,
-        'numAfnNewSellers' => $values[27] ?: 0,
-        'numAfnUsedSellers' => $values[28] ?: 0,
+        'weeksOfCoverT7' => (int) $values[22] ?: 0,
+        'weeksOfCoverT30' => (int) $values[23] ?: 0,
+        'weeksOfCoverT90' => (int) $values[24] ?: 0,
+        'weeksOfCoverT180' => (int) $values[25] ?: 0,
+        'weeksOfCoverT365' => (int) $values[26] ?: 0,
+        'numAfnNewSellers' => (int) $values[27] ?: 0,
+        'numAfnUsedSellers' => (int) $values[28] ?: 0,
         'currency' => $values[29] ?: '',
         'yourPrice' => $values[30] ?: 0,
         'salesPrice' => $values[31] ?: 0,

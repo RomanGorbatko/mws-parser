@@ -14,9 +14,17 @@ return [
         'password' => ''
     ],
     'mws' => [
-        'API_KEY' => 'AKIAJX223ERUCKB6QP3A',
-        'SECRET_KEY' => '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',
-        'MERCHANT_ID' => 'ACXDIVFJ97W6M',
-        'MAKETPLACE_ID' => 'ATVPDKIKX0DER'
+        [
+            'API_KEY' => 'AKIAJX223ERUCKB6QP3A',
+            'SECRET_KEY' => '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',
+            'MERCHANT_ID' => 'ACXDIVFJ97W6M',
+            'MAKETPLACE_ID' => 'ATVPDKIKX0DER'
+        ],
+        [
+            'API_KEY' => 'AKIAJX223ERUCKB6QP3A',
+            'SECRET_KEY' => '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',
+            'MERCHANT_ID' => 'ACXDIVFJ97W6M',
+            'MAKETPLACE_ID' => 'ATVPDKIKX0DER'
+        ]
     ]
 ];

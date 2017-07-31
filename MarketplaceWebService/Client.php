@@ -819,7 +819,7 @@ class MarketplaceWebService_Client implements MarketplaceWebService_Interface
       do {
         try {
           $response = $this->performRequest($actionName, $converted, $dataHandle, $contentMd5);
-          
+
           $httpStatus = $response['Status'];
           
           switch ($httpStatus) {
